@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive two</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .row {}
+
+        .column {
+            width: 25%;
+            float: left;
+
+            padding: 10px;
+
+        }
+
+
+
+
+        @media screen and (max-width:800px) {
+
+            .column {
+                width: 50%;
+                float: left;
+
+                padding: 10px;
+
+            }
+
+
+        }
+
+        @media screen and (max-width:600px) {
+
+            .column {
+                width: 100%;
+                float: left;
+
+                padding: 10px;
+
+            }
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="row">
+        <div class="column">
+            <h1>Python</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio esse quae dignissimos quibusdam dolores
+                recusandae quis molestiae?</p>
+        </div>
+
+        <div class="column">
+            <h1>javasript</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio esse quae dignissimos quibusdam dolores
+                recusandae quis molestiae?</p>
+        </div>
+
+        <div class="column">
+            <h1>html</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio esse quae dignissimos quibusdam dolores
+                recusandae quis molestiae?</p>
+        </div>
+
+        <div class="column">
+            <h1>css</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio esse quae dignissimos quibusdam dolores
+                recusandae quis molestiae?</p>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
