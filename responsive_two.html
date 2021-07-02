@@ -1,17 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive two</title>
+    <title>Document</title>
     <style>
-        * {
+        *{
             box-sizing: border-box;
+           
+        }
+        nav{
+            background-color: grey;
+            padding: 15px;
+            display: flex;
+            justify-content: flex-end;
+        }
+        nav a{
+            padding: 10px;
+            text-decoration: none;
+            color: white;
+        }
+        nav a:hover{
+            background-color: teal;
+            border-radius: 20px;
+        }
+        @media screen and (max-width:600px) {
+            nav {
+                flex-direction: column;
+                padding: 10px;
+                
+            }
+            nav a{
+                background-color: indigo;
+                margin: 5px 0;
+                padding: 10px;
+                text-transform: uppercase;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: large;
+                text-align: center;
+
+            }
+            
         }
 
-        .row {}
 
         .column {
             width: 25%;
@@ -49,10 +81,22 @@
 
 
         }
+        nav h1{
+            float: left;
+        }
     </style>
 </head>
-
 <body>
+    <header></header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Service</a>
+        <a href="#">Contact</a>
+        <a href="#">gellary</a>
+
+    </nav>
+
     <div class="row">
         <div class="column">
             <h1>Python</h1>
@@ -77,9 +121,36 @@
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio esse quae dignissimos quibusdam dolores
                 recusandae quis molestiae?</p>
         </div>
+        <div class="column">
+            <h1>css</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio esse quae dignissimos quibusdam dolores
+                recusandae quis molestiae?</p>
+        </div>
+        <div class="column">
+            <h1>css</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio esse quae dignissimos quibusdam dolores
+                recusandae quis molestiae?</p>
+        </div>
+        <div class="column">
+            <h1>css</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio esse quae dignissimos quibusdam dolores
+                recusandae quis molestiae?</p>
+        </div>
+        <div class="column">
+            <h1>css</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio esse quae dignissimos quibusdam dolores
+                recusandae quis molestiae?</p>
+        </div>
+        <div class="column">
+            <h1>css</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio esse quae dignissimos quibusdam dolores
+                recusandae quis molestiae?</p>
+        </div>
 
     </div>
 
-</body>
 
+    
+    
+</body>
 </html>
